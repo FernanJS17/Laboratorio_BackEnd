@@ -7,7 +7,7 @@
 
 ## Laboratorio BackEnd
 
-Este es el backend del proyecto de Laboratorio, hecho con NestJS y MongoDB como base de datos. Maneja posts, comentarios y autenticación con JWT para el frontend.
+Este es el backend del proyecto de Laboratorio, hecho con NestJS y MongoDB como base de datos. Maneja posts y comentarios.
 
 -Tecnologías
 
