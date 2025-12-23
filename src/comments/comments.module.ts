@@ -9,7 +9,7 @@ import { Post, PostSchema } from '../posts/schemas/post.schema';
   imports: [
     MongooseModule.forFeature([
       { name: Comment.name, schema: CommentSchema },
-      { name: Post.name, schema: PostSchema }, // para validar postId
+      { name: Post.name, schema: PostSchema },
     ]),
   ],
   controllers: [CommentsController],

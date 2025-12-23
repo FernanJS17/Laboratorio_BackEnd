@@ -1,7 +1,7 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 import { Document, Types } from 'mongoose';
 
-@Schema({ timestamps: true })
+@Schema({ timestamps: true }) // Sirve para crear createdAt y updatedAt automáticamente
 export class Comment extends Document {
   @Prop({ type: Types.ObjectId, ref: 'Post', required: true })
   postId: Types.ObjectId; //Referencia del Post
